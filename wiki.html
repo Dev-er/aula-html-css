@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML/CSS - SEMÂNTICA</title>
+</head>
+<body>
+    <header>
+        <h1>Estudo do HTML</h1>
+        <h3>Conceitos introdutórios da Linguagem</h3>
+        <nav> <!-- Agrupa links de navegação -->
+            <ol>
+                <li><a href="#intro">Introdução<a/></li>
+            </ol>
+        </nav> 
+    </header>
+    <main> <!--Conteúdo principal da página-->
+        <section> <!-- Separa tópicos/conteúdos-->
+            <h3>Uso de Tags</h3>
+            <p> Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga.Mé faiz elementum girarzis, nisi eros vermeio.Quem num gosta di mim que vai caçá sua turmis!Aenean aliquam molestie leo, vitae iaculis nisl.
+
+                Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Si num tem leite então bota uma pinga aí cumpadi!Suco de cevadiss deixa as pessoas mais interessantis.Paisis, filhis, espiritis santis.
+    
+                Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Delegadis gente finis, bibendum egestas augue arcu ut est.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.
+            </p>
+        </section>
+
+        <section>
+            <h3>Uso de Tabelas</h3>
+            <table border="1" cellpadding="3" style="border-colapse = colapse;">
+                <thead> <!--Cabeçalho da tabela-->
+                    <tr>
+                        <!--colspan = duração da coluna-->
+                        <th colspan="4">USUÁRIOS</th>
+                    </tr>
+                    <tr> <!--Table Row (Linhas da Tabela)-->
+                        <th>Tipo</th>
+                        <th>Nome</th> <!--Table Header-->
+                        <th>CPF</th>
+                        <th>Data Nasc.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <!--rowspan = duração da linha-->
+                        <td rowspan="2">Funcionário</td>
+                        <td>José</td> <!--Table Data-->
+                        <td>000.000.000-00</td>
+                        <td>19/09/2022</td>
+                    </tr>
+                    
+                    <tr>                       
+                        <td>João</td> <!--Table Data-->
+                        <td>000.000.000-00</td>
+                        <td>19/09/2022</td>
+                    </tr>
+                    
+                    <tr>
+                        <td rowspan="2">Cliente</td>
+                        <td>Josué</td> <!--Table Data-->
+                        <td>000.000.000-00</td>
+                        <td>19/09/2022</td>
+                    </tr>
+                    
+                    <tr>                       
+                        <td>Joaquim</td> <!--Table Data-->
+                        <td>000.000.000-00</td>
+                        <td>19/09/2022</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <hr />
+
+            <table border="1" cellpadding="4" style="border-colapse: colapse;">
+                <tr>
+                    <td colspan="2">Cel 1-1</td>
+                    <td>Cel. 1-3</td>
+                </tr>
+                <tr>
+                    <td>Cel. 2-1</td>
+                    <td>Cel. 2-2</td>
+                    <td>Cel. 2-3</td>
+                </tr>
+            </table>
+
+
+        </section>
+
+        <hr/> <!--Horizontal Rule-->
+        <footer> <!--Dá informações sobre autoria/encerra o conteúdo-->
+            ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Soulcode Academy
+        </footer>
+    </main>
+</body>
+</html>
