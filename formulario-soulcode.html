@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Criação de Formulários</title>
+</head>
+<body>
+    
+        <header>
+            <img src="./img/light-logo.png"/>
+            <br/><br/>
+            <h3>Bem-vindo(a)! Entre com seu e-mail e senha</h3>
+        </header>
+        <form>
+            <div>
+                <label for="campoEmail">Email</label><br/>
+                <input id="campoEmail" name="campoEmail" type="email" placeholder="usuario@exemplo.com" required/>
+            </div>
+            <div>
+                <label for="campoSenha">Senha</label><br/>
+                <input id="campoSenha" name="campoSenha" type="password" placeholder="Sua senha" required/>
+            </div>
+
+        <br/><hr/>
+
+            <button type="submit">Login</button> <!--SUBMETER (SUBMIT)-->
+        <br/><br/>
+        
+            <div>
+                <input id="continuarConectado" type="checkbox" name="continuarConectado" required/>
+                <label for="continuarConectado">Continuar Conectado</label>
+            </div>       
+        </form>
+
+        <br/><br/><hr/>
+    <main>
+        <table >
+            <thead>
+                <th colspan="3">INFORMAÇÕES ADICIONAIS</th>           
+            </thead>          
+            <tbody>
+                <tr>
+                    <td >Preço</td>
+                    <td><h4>BOLSA INTEGRAL</h4></td>
+                </tr>
+                
+                <tr>
+                    <td >Prazo de Inscrição</td>
+                    <td><h4>até 03/10/2022</h4></td>                  
+                </tr>                
+
+                <tr>
+                    <td >Duração</td>
+                    <td><h4>12 semanas</h4></td>                   
+                </tr>
+                
+
+                <tr>
+                    <td >Horário de aula</td>
+                    <td><h4>8h às 18h</h4></td>                   
+                </tr>
+                
+
+                <tr>
+                    <td >Formato de aula</td>
+                    <td><h4>Online e ao vivo</h4></td>                   
+                </tr>
+                
+
+                <tr>
+                    <td >Idioma</td>
+                    <td><h4>Português</h4></td>                   
+                </tr>
+            
+    </main>
+</body>
+</html>
