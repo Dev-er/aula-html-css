@@ -1,0 +1,54 @@
+h3 {
+    background-color: red;
+}
+
+.box1{
+    background-color: coral;
+    /*espaçamento interno*/
+    padding: 16 px;
+    /*espaçamento externo*/
+    margin: 8px;
+}
+
+.box2{
+    background-color:green;
+    /*TRBL = horário*/
+    padding: 8px 20px 4px 10px;
+    margin: 8px 10px 10px 40px;
+}
+
+.box3{
+    background-color: brown;
+    /*espessura estilo cor*/
+    /*es: dashed, dotted, solid*/
+    border: 2px solid yellow;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.box4{
+    background-color: seagreen;
+    width:400px;
+    padding: 20px;
+    border: 5px solid red;
+}
+/* * = todos os elementos */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://soulcodeacademy.org/assets/images/logo/light-logo.png");
+    /* y = vertical, x = horizontal*/
+    background-repeat: no-repeat;
+    /* background-cover = zoom na imagem*/
+    /* backgrond-contain = estica a imagem*/
+    /*background-size: contain;*/
+    /*background-position: center; /* ou background-position: right/left bottom; ou background-position: right/left top*/
+   /* height: 100vh; /*vh = viewport height */
+    background-attachment: fixed;
+}

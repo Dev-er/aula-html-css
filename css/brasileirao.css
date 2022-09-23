@@ -1,0 +1,30 @@
+*{
+    border: 0;
+    padding: 0;
+    background-color: gray;   
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: blue;
+}
+
+body{
+    
+}
+
+.cabecalho{
+    border-box: 2px;
+    border-color: black;
+    background-position: center;
+
+}
+
+table {    
+    background-color: white;
+    border: 5px;
+    color: orange;
+   
+    border-style: colapse;*/
+}
